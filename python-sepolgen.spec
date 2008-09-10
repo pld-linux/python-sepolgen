@@ -1,12 +1,12 @@
 Summary:	sepolgen - Python module for policy generation
 Summary(pl.UTF-8):	Moduł Pythona sepolgen do generowania polityki
 Name:		python-sepolgen
-Version:	1.0.10
+Version:	1.0.11
 Release:	1
 License:	GPL v2
 Group:		Development/Languages/Python
 Source0:	http://www.nsa.gov/selinux/archives/sepolgen-%{version}.tgz
-# Source0-md5:	d315653753557ff4f0e14109fc0e76f9
+# Source0-md5:	5892dc3c3a1c754d528b0c554e300a63
 URL:		http://www.nsa.gov/selinux/
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
