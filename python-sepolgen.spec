@@ -1,14 +1,14 @@
 Summary:	sepolgen - Python module for policy generation
 Summary(pl.UTF-8):	Moduł Pythona sepolgen do generowania polityki
 Name:		python-sepolgen
-Version:	1.0.23
-Release:	3
+Version:	1.2.1
+Release:	1
 License:	GPL v2
 Group:		Development/Languages/Python
-Source0:	http://userspace.selinuxproject.org/releases/current/devel/sepolgen-%{version}.tar.gz
-# Source0-md5:	402b241c56ab24b901a09f1c793c12e4
+Source0:	http://userspace.selinuxproject.org/releases/current/sepolgen-%{version}.tar.gz
+# Source0-md5:	ce662a83188bc3a9b40c15792fcaf2c8
 URL:		http://userspace.selinuxproject.org/trac/wiki
-BuildRequires:	python-modules
+BuildRequires:	python-modules >= 2
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 BuildArch:	noarch
