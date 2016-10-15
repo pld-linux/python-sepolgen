@@ -53,6 +53,7 @@ Summary(pl.UTF-8):	Moduł Pythona 3 sepolgen do generowania polityki
 Group:		Development/Languages/Python
 Requires:	%{name}-common = %{version}-%{release}
 Requires:	python3-selinux >= 2.5
+# TODO: uncomment when setools supports python 3 (3.3.8 doesn't)
 #Suggests:	python3-setools
 
 %description -n python3-sepolgen
