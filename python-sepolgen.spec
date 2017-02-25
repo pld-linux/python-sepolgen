@@ -6,13 +6,13 @@
 Summary:	sepolgen - Python 2 module for policy generation
 Summary(pl.UTF-8):	Moduł Pythona 2 sepolgen do generowania polityki
 Name:		python-sepolgen
-Version:	1.2.3
-Release:	2
+Version:	2.6
+Release:	1
 License:	GPL v2
 Group:		Development/Languages/Python
 #Source0Download: https://github.com/SELinuxProject/selinux/wiki/Releases
-Source0:	https://raw.githubusercontent.com/wiki/SELinuxProject/selinux/files/releases/20160223/sepolgen-%{version}.tar.gz
-# Source0-md5:	d17b4072ed14d1f8d94ffd667ddc2864
+Source0:	https://raw.githubusercontent.com/wiki/SELinuxProject/selinux/files/releases/20161014/sepolgen-%{version}.tar.gz
+# Source0-md5:	84faa46a0eb0b603e903efeed239c244
 URL:		https://github.com/SELinuxProject/selinux/wiki
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
@@ -25,7 +25,7 @@ BuildRequires:	python3 >= 1:3.2
 BuildRequires:	python3-modules >= 1:3.2
 %endif
 Requires:	%{name}-common = %{version}-%{release}
-Requires:	python-selinux >= 2.5
+Requires:	python-selinux >= 2.6
 Suggests:	python-setools
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -52,7 +52,7 @@ Summary:	sepolgen - Python 3 module for policy generation
 Summary(pl.UTF-8):	Moduł Pythona 3 sepolgen do generowania polityki
 Group:		Development/Languages/Python
 Requires:	%{name}-common = %{version}-%{release}
-Requires:	python3-selinux >= 2.5
+Requires:	python3-selinux >= 2.6
 # TODO: uncomment when setools supports python 3 (3.3.8 doesn't)
 #Suggests:	python3-setools
 
