@@ -1,3 +1,4 @@
+# NOTE: for versions >= 2.7 see selinux-python.spec
 #
 # Conditional build:
 %bcond_without	python2	# Python 2 module
@@ -7,7 +8,7 @@ Summary:	sepolgen - Python 2 module for policy generation
 Summary(pl.UTF-8):	Moduł Pythona 2 sepolgen do generowania polityki
 Name:		python-sepolgen
 Version:	2.6
-Release:	1
+Release:	1.1
 License:	GPL v2
 Group:		Development/Languages/Python
 #Source0Download: https://github.com/SELinuxProject/selinux/wiki/Releases
